@@ -1,0 +1,15 @@
+# Dependencies (none, but just in case)
+node_modules/
+
+# Environment variables — contains secrets, NEVER push to GitHub
+.env
+.env.local
+.env.production
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
